@@ -44,4 +44,36 @@ h1, h2, h3 {
 }
 .navbar__item a:hover {
   color: #4CAF50;
+}
+
+.hero {
+  background-color: #4CAF50;
+  color: white;
+  padding: 4rem 0;
+}
+.hero__content {
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 0 1rem;
+  text-align: center;
+}
+.hero__title {
+  font-size: 2.5rem;
+  margin-bottom: 1rem;
+}
+.hero__text {
+  font-size: 1.2rem;
+  margin-bottom: 2rem;
+}
+.hero__button {
+  background: white;
+  color: #4CAF50;
+  border: none;
+  padding: 0.8rem 1.5rem;
+  font-size: 1rem;
+  border-radius: 5px;
+  cursor: pointer;
+}
+.hero__button:hover {
+  opacity: 0.9;
 }/*# sourceMappingURL=main.css.map */
