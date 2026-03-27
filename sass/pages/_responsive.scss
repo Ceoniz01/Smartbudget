@@ -6,3 +6,26 @@
   }
 
 }
+
+@media (max-width: 768px) {
+
+  .features__container {
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .navbar__container {
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .navbar__list {
+    flex-direction: column;
+    margin-top: 10px;
+  }
+
+  .navbar__item {
+    margin: 5px 0;
+  }
+
+}
