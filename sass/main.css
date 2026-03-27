@@ -78,6 +78,26 @@ h1, h2, h3 {
   opacity: 0.9;
 }
 
+.about {
+  padding: 60px 0;
+}
+.about__container {
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 0 1rem;
+}
+.about__title {
+  font-size: 2rem;
+  margin-bottom: 20px;
+  text-align: center;
+}
+.about__text {
+  max-width: 600px;
+  margin: 0 auto;
+  text-align: center;
+  line-height: 1.6;
+}
+
 .features {
   padding: 4rem 0;
   background-color: #f5f5f5;
