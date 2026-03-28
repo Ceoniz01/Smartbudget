@@ -18,15 +18,15 @@ h1, h2, h3 {
 .navbar {
   background-color: #2c3e50;
   color: white;
+  padding: 15px 0;
 }
 .navbar__container {
+  width: 90%;
   max-width: 1200px;
   margin: 0 auto;
-  padding: 0 1rem;
   display: flex;
-  justify-content: space-between;
   align-items: center;
-  padding: 1rem;
+  justify-content: space-between;
 }
 .navbar__logo {
   font-size: 1.5rem;
@@ -34,8 +34,8 @@ h1, h2, h3 {
 }
 .navbar__list {
   display: flex;
+  gap: 20px;
   list-style: none;
-  gap: 1.5rem;
 }
 .navbar__item a {
   color: white;
@@ -52,9 +52,9 @@ h1, h2, h3 {
   color: #f5f5f5;
 }
 .footer__container {
+  width: 90%;
   max-width: 1200px;
   margin: 0 auto;
-  padding: 0 1rem;
   text-align: center;
 }
 .footer__text {
@@ -67,9 +67,9 @@ h1, h2, h3 {
   padding: 4rem 0;
 }
 .hero__content {
+  width: 90%;
   max-width: 1200px;
   margin: 0 auto;
-  padding: 0 1rem;
   text-align: center;
 }
 .hero__title {
@@ -97,9 +97,9 @@ h1, h2, h3 {
   padding: 60px 0;
 }
 .about__container {
+  width: 90%;
   max-width: 1200px;
   margin: 0 auto;
-  padding: 0 1rem;
 }
 .about__title {
   font-size: 2rem;
@@ -169,9 +169,9 @@ h1, h2, h3 {
   text-align: center;
 }
 .features__container {
+  width: 90%;
   max-width: 1200px;
   margin: 0 auto;
-  padding: 0 1rem;
   display: flex;
   gap: 2rem;
   justify-content: center;
